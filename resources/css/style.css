@@ -1,4 +1,67 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
 body {
   background-color: black;
   color: white;
 }
+header {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  padding-left: 10rem;
+}
+header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+header p {
+
+  font-size: 1rem;
+  padding: 0.66rem 0rem;
+}
+.banner {
+background-image: url("../images/moto.jpeg");
+height: 25rem;
+display: flex;
+padding-left: 10rem;
+align-items: center;
+
+}
+.new {
+  background-color: black;
+  font-weight: bold;
+  width: 20rem;
+
+}
+.new p {
+  font-size: 1rem;
+  padding: 2rem 0rem 0.25rem 3rem;
+
+
+}
+.new h2 {
+  font-size: 2rem;
+  padding: 0rem 0rem 2rem 3rem;
+}
+nav {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+  color: white;
+}
+
+.product-lochour{
+  background-color: white;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
